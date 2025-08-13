@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #007acc;
+            color: white;
+            padding: 2rem 1rem;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: -75px;
+            border: 5px solid white;
+        }
+        section {
+            padding: 2rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            margin: 0.5rem 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        form {
+            margin-top: 1.5rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #007acc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Your Profession or Tagline</p>
+    </header>
+
+    <img src="profile.jpg" alt="Profile Picture" class="profile">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m [Your Name], a [Your Profession] based in [Your Location].
+            I specialize in [Your Skills/Expertise]. This is my personal website where
+            you can learn more about me and how to connect with me.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <small>*Contact form powered by <a href="https://formspree.io/" target="_blank">Formspree</a></small>
+    </section>
+
+    <section id="social">
+        <h2>Follow Me</h2>
+        <div class="social-links">
+            <a href="https://facebook.com/yourusername" target="_blank">Facebook</a>
+            <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+</body>
+</html>
